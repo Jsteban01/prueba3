@@ -12,7 +12,7 @@
   ],
 
   "rewrites": [
-    {"source": "/servicios", "destination": "/Mining_cap/App/templates/App/servicios.html"}
+    {"source": "/s", "destination": "/Mining_cap/App/templates/App/servicios.html"}
   ]
 
 }
