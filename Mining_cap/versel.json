@@ -9,10 +9,5 @@
       "src": "/(.*)",
       "dest": "Mining/wsgi.py"
     }
-  ],
-
-  "rewrites": [
-    {"source": "/(.*)", "destination": "../servicios.html"}
   ]
-
 }
