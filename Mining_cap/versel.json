@@ -7,7 +7,7 @@
   "routes": [
     {
       "src": "/t",
-      "dest": "/Mining_cap/App/templates/App/servicios.html"
+      "dest": "https://prueba3-smoky.vercel.app/Mining_cap/App/templates/App/servicios.html"
     }
   ]
 }
