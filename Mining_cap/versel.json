@@ -1,8 +1,18 @@
 {
-
+  "builds": [{
+    "src": "Mining/wsgi.py",
+    "use": "@vercel/python",
+    "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+  }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Mining/wsgi.py"
+    }
+  ],
 
   "rewrites": [
-    {"source": "/s", "destination": "/Mining_cap/App/templates/App/servicios.html"}
+    {"source": "/(.*)", "destination": "/Mining_cap/App/templates/App/servicios.html"}
   ]
 
 }
